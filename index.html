@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madhu Sudhan Telugu's Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Rubik+Moonrocks&family=Honk&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Reenie+Beanie&family=Rubik+Glitch+Pop&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+  <script src="Portfolio.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-toggle" id="navbar-toggle">☰</div>
+    <ul class="navbar-menu" id="navbar-menu">
+      <li class="navbar-item"><a href="#hero">Home</a></li>
+      <li class="navbar-item"><a href="#about">About Me</a></li>
+      <li class="navbar-item"><a href="#portfolio">Projects</a></li>
+      <li class="navbar-item"><a href="#my-education">Education</a></li>
+      <li class="navbar-item"><a href="#contact-me">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <div class="intro-text">
+        <h3>
+          <span id="names">MadhuSudhan,</span>
+          <span id="thats">that's me!</span>
+        </h3>
+        <p>
+          I craft clean, efficient code and innovative digital experiences. With a sharp eye for detail and a passion
+          for development, I turn ideas into sleek, functional solutions. Let’s explore the digital landscape together
+          and create projects that combine creativity, performance, and elegance — code that speaks louder than words.
+        </p>
+
+      </div>
+      <div class="ctainer">
+        <img src="./files/hero sec img.png" alt="Person Image" class="image">
+        <div class="text-left hidden">Ready to Work</div>
+        <div class="text-top-right hidden">Coding, coffee, repeat</div>
+        <div class="text-bottom-right hidden" id="age"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="text-container">
+    <div class="text-box"><a href="#">BCA Graduate</a></div>
+    <div class="text-box"><a href="#">Aspiring Full-Stack Developer</a></div>
+    <div class="text-box">
+      <a href="./files/MadhuSudhanCV.pdf" target="_blank">Download CV</a>
+      <i class="fa-solid fa-up-right-from-square" style="margin-left: 5px; font-size: 11px;"></i>
+    </div>
+    <div class="text-box linkedin-link">
+      <a href="https://www.linkedin.com/in/madhusudhantelugu/" target="_blank">LinkedIn Profile</a>
+      <i class="fa-solid fa-up-right-from-square" style="margin-left: 5px; font-size: 11px;"></i>
+    </div>
+    <div class="text-box">
+      <a href="https://wa.me/918688381084?text=Hello%20MadhuSudhan,%20I%20came%20across%20your%20portfolio%20website%20and%20am%20interested%20in%20discussing%20a%20potential%20opportunity%20with%20you."
+        target="_blank">Contact via WhatsApp</a>
+      <i class="fa-solid fa-up-right-from-square" style="margin-left: 5px; font-size: 11px;"></i>
+    </div>
+  </div>
+  <section class="about-me" id="about">
+    <div class="conta">
+      <h1>About Me</h1>
+      <p class="about-intro">
+        I am a BCA graduate passionate about web development and programming. I enjoy creating interactive web
+        applications and continuously learning new technologies to improve my skills.
+      </p>
+
+      <div class="about-accordion">
+        <div class="about-card">
+          <button class="accordion-button">Web Development <span class="accordion-symbol">+</span></button>
+          <div class="accordion-content">
+            <p>I have hands-on experience with HTML, CSS, JavaScript, and React. I focus on building responsive and
+              dynamic web interfaces that offer excellent user experience.</p>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <button class="accordion-button">Backend & Database <span class="accordion-symbol">+</span></button>
+          <div class="accordion-content">
+            <p>I am familiar with Python and Django basics, along with MySQL for database management. I can implement
+              backend logic to support full-stack web applications.</p>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <button class="accordion-button">Learning & Growth <span class="accordion-symbol">+</span></button>
+          <div class="accordion-content">
+            <p>I am committed to continuous learning through online courses, personal projects, and exploring new
+              technologies to expand my knowledge in programming and web development.</p>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <button class="accordion-button">Projects <span class="accordion-symbol">+</span></button>
+          <div class="accordion-content">
+            <p>I have worked on several projects including a Lost & Found web app, AI image generator, and portfolio
+              website, showcasing my skills in frontend and backend development.</p>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <button class="accordion-button">Strengths <span class="accordion-symbol">+</span></button>
+          <div class="accordion-content">
+            <p>My strengths include adaptability, problem-solving, attention to detail, teamwork, and a strong
+              willingness to learn and improve continuously.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projects" id="portfolio">
+    <h2>Projects</h2>
+    <div class="project-scroll">
+      <!-- Web Development Projects -->
+      <div class="project-card" id="snake-game">
+        <img src="./files/Snake.png" alt="Snake Game">
+        <h3>Classic Snake Game</h3>
+        <p>Mobile and browser-compatible Snake game with real-time movement, score tracking, and collision detection.
+        </p>
+        <p><strong>Tools:</strong> React.js, JavaScript, HTML Canvas, CSS</p>
+        <a href="https://reactclassicsnake.netlify.app" target="_blank">Live Demo</a>
+      </div>
+
+      <div class="project-card" id="netflix-clone">
+        <img src="./files/Netlifx.png" alt="Netflix Clone">
+        <h3>Netflix Design Clone</h3>
+        <p>Designed a visually engaging streaming platform with interactive elements, hover effects, and smooth
+          navigation.</p>
+        <p><strong>Tools:</strong> Responsive Design, Git, GitHub</p>
+        <a href="masudhandesign.netlify.app" target="_blank">Live Demo</a>
+      </div>
+
+      <div class="project-card" id="dairy-website">
+        <img src="./files/dairy web cover.png" alt="Dairy Industry Website">
+        <h3>Dairy Industry Website</h3>
+        <p>User-friendly website with online ordering, flexible delivery, customer support, and registration
+          features.</p>
+        <p><strong>Tools:</strong> HTML, CSS, JavaScript, Git, GitHub</p>
+        <a href="https://madhudairydelights.netlify.app" target="_blank">Live Demo</a>
+      </div>
+
+      <!-- AI & Machine Learning Projects -->
+      <div class="project-card" id="ai-generator">
+        <img src="./files/AIImage.png" alt="AI Image Generator">
+        <h3>AI Image Generation Tool</h3>
+        <p>AI image generator with customizable models, aspect ratios, and input options to boost creativity.</p>
+        <p><strong>Tools:</strong> React.js, JavaScript, HTML, CSS, AI Image Generation API</p>
+        <a href="https://syntheticcreator.netlify.app" target="_blank">Live Demo</a>
+      </div>
+
+      <!-- Full Stack Projects -->
+      <div class="project-card" id="gemini-chatbot">
+        <img src="./files/Gemini.png" alt="Gemini AI Chatbot">
+        <h3>Gemini AI Chatbot Clone</h3>
+        <p>Cloned an AI chatbot using Gemini API, enhancing skills in API integration, AI-driven chat systems, and
+          backend.</p>
+        <p><strong>Tools:</strong> React.js, JavaScript, HTML, CSS, Gemini API</p>
+        <a href="https://gemini-clone-tms.netlify.app" target="_blank">Live Demo</a>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="education-section" id="my-education">
+    <h1>Education</h1>
+    <div class="education-timeline">
+      <div class="education-item">
+        <div class="year">2025</div>
+        <div class="degree">
+          <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="degree-info">
+            <h3>Bachelor of Computer Applications</h3>
+            <p>Rayalaseema University, Nandyal</p>
+            <p>CGPA: 8.2</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-item">
+        <div class="year">2019</div>
+        <div class="degree">
+          <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="degree-info">
+            <h3>Board of Intermediate Education</h3>
+            <p>Rao's Junior College, Nandyal</p>
+            <p>CGPA: 9.4</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-item">
+        <div class="year">2017</div>
+        <div class="degree">
+          <div class="icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="degree-info">
+            <h3>Board of Secondary Education</h3>
+            <p>Jyothi High School, Bandi Atmakur</p>
+            <p>CGPA: 9.5</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--certifications-->
+  <div class="inspiration-section">
+    <h1>Certifications</h1>
+    <div class="background-images">
+      <div class="certificate-container" style="top: 12%; left: 15%;">
+        <img src="./files/meta android certifi.jpeg" class="bg-image">
+        <div class="certificate-name">Meta Android Developer Professional Certificate</div>
+      </div>
+      <div class="certificate-container" style="top: 30%; left: 70%;">
+        <img src="./files/Meta Swift prgrm.jpeg" class="bg-image">
+        <div class="certificate-name">Meta iOS Developer Professional Certificate</div>
+      </div>
+      <div class="certificate-container" style="top: 70%; left: 10%;">
+        <img src="./files/Google foundations of ux.jpeg" class="bg-image">
+        <div class="certificate-name">Google UX Design Professional Certificate</div>
+      </div>
+      <div class="certificate-container" style="top: 18%; left: 50%;">
+        <img src="./files/Meta Introduction to Front end.jpeg" class="bg-image blur">
+        <div class="certificate-name blur">Meta Front-End Developer Professional Certificate</div>
+      </div>
+      <div class="certificate-container" style="top: 55%; left: 40%;">
+        <img src="./files/Meta intro to iOS dev.jpeg" class="bg-image blur">
+        <div class="certificate-name blur">Web Applications for Everybody Specialization</div>
+      </div>
+      <div class="certificate-container" style="top: 74.5%; left: 60%;">
+        <img src="./files/Meta Html and Css in depth.jpeg" class="bg-image blur">
+        <div class="certificate-name blur">University of California San Diego_Data Structures and Algorithms
+          Specialization</div>
+      </div>
+    </div>
+    <p class="linkedin-promo">For more certifications and achievements, please visit my <a
+        href="https://www.linkedin.com/in/madhusudhantelugu/" target="_blank">LinkedIn profile</a>.</p>
+  </div>
+
+
+
+
+  <div class="skills-grid" id="skill">
+    <!-- Technical Skills -->
+    <div class="skill-circle python" data-percent="90">
+      <div class="tooltip">90%</div>
+      <div class="emoji">🐍</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">Python</div>
+    </div>
+
+    <div class="skill-circle html" data-percent="95">
+      <div class="tooltip">95%</div>
+      <div class="emoji">📄</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">HTML</div>
+    </div>
+
+    <div class="skill-circle css" data-percent="95">
+      <div class="tooltip">95%</div>
+      <div class="emoji">🎨</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">CSS</div>
+    </div>
+
+    <div class="skill-circle javascript" data-percent="80">
+      <div class="tooltip">80%</div>
+      <div class="emoji">🟨</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">JavaScript</div>
+    </div>
+
+    <div class="skill-circle react" data-percent="75">
+      <div class="tooltip">75%</div>
+      <div class="emoji">⚛️</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">React</div>
+    </div>
+
+    <div class="skill-circle sql" data-percent="75">
+      <div class="tooltip">75%</div>
+      <div class="emoji">🗄️</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">SQL</div>
+    </div>
+
+    <div class="skill-circle git" data-percent="80">
+      <div class="tooltip">80%</div>
+      <div class="emoji">🔧</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">Git</div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="skill-circle communication" data-percent="90">
+      <div class="tooltip">90%</div>
+      <div class="emoji">💬</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">Communication</div>
+    </div>
+
+    <div class="skill-circle teamwork" data-percent="85">
+      <div class="tooltip">85%</div>
+      <div class="emoji">🤝</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">Teamwork</div>
+    </div>
+
+    <div class="skill-circle problem-solving" data-percent="90">
+      <div class="tooltip">90%</div>
+      <div class="emoji">🧩</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">Problem Solving</div>
+    </div>
+
+    <div class="skill-circle adaptability" data-percent="85">
+      <div class="tooltip">85%</div>
+      <div class="emoji">🌱</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">Adaptability</div>
+    </div>
+
+    <div class="skill-circle time-management" data-percent="80">
+      <div class="tooltip">80%</div>
+      <div class="emoji">⏰</div>
+      <svg class="circle-border">
+        <circle class="border" cx="25" cy="25" r="20" stroke="#ccc" stroke-width="10" fill="transparent"></circle>
+        <circle class="value" cx="25" cy="25" r="20" stroke="#006400" stroke-width="10" fill="transparent"
+          stroke-dasharray="0, 125.6"></circle>
+      </svg>
+      <div class="label">Time Management</div>
+    </div>
+  </div>
+
+
+
+
+  <div class="feedback-container">
+    <div class="bars-container">
+      <div class="bar"><span>Discipline</span></div>
+      <div class="bar"><span>Consistency</span></div>
+      <div class="bar"><span>Believe</span></div>
+    </div>
+  </div>
+
+
+
+
+  <section class="contact-section" id="contact-me">
+    <div class="background-circles">
+      <div class="circle small-circle">
+        <div class="symbol" style="--angle: 0deg;">{</div>
+        <div class="symbol" style="--angle: 120deg;">\</div>
+        <div class="symbol" style="--angle: 240deg;">?</div>
+      </div>
+      <div class="circle medium-circle">
+        <div class="symbol" style="--angle: 0deg;">=</div>
+        <div class="symbol" style="--angle: 120deg;">]</div>
+        <div class="symbol" style="--angle: 240deg;">^</div>
+      </div>
+      <div class="circle large-circle">
+        <div class="symbol" style="--angle: 0deg;">@</div>
+        <div class="symbol" style="--angle: 120deg;">&</div>
+      </div>
+    </div>
+    <div class="cont">
+      <div class="text-contents">
+        <h1>Bringing Ideas to Life</h1>
+        <h2>"Passionate about tech? Let's connect and build the future together."</h2>
+        <p>I’m an aspiring developer eager to contribute to impactful projects and grow my skills in the process.
+          Whether it's mobile development, web design, or exploring new technologies, I'm excited to take on new
+          challenges and collaborate with like-minded professionals.</p>
+        <div class="services">
+          <div class="service">✔ Web Development</div>
+          <div class="service">✔ UI/UX Design</div>
+          <div class="service">✔ Quality Assurance</div>
+          <div class="service">✔ Integration</div>
+          <div class="service">✔ App Development</div>
+          <div class="service">✔ Security</div>
+        </div>
+      </div>
+      <div id="contact-form-container" class="contact-form">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-overlay">
+      <div class="map-dim-overlay"></div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12843.910563454878!2d78.47853659690679!3d15.48033672067967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb5ad5045a0924d%3A0x2c210d70c215295d!2sNandyala%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1724466982340!5m2!1sen!2sin"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-logo">
+        <!-- <img src="/" alt="Your Logo" /> -->
+      </div>
+
+      <div class="footer-sections">
+        <!-- Contact -->
+        <div class="footer-section contact-info">
+          <h3>Contact</h3>
+          <ul>
+            <li>Email: <a href="mailto:mdhusdhn.telugu@gmail.com">mdhusdhn.telugu@gmail.com</a></li>
+            <li>Phone: <a href="tel:+918688381084">+91 86883 81084</a></li>
+            <li>Location: Nandyal, Andhra Pradesh</li>
+          </ul>
+        </div>
+
+        <!-- Social -->
+        <div class="footer-section social-media">
+          <h3>Follow Me</h3>
+          <div class="social-icons">
+            <a href="https://x.com/mdhusdhn" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/madhusudhantelugu/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/mdhusdhn-telugu" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/mdhusdhn.telugu" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#my-education">Education</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Projects -->
+        <div class="footer-section projects">
+          <h3>Projects</h3>
+          <ul>
+            <li><a href="#snake-game">Web Development</a></li>
+            <li><a href="#ai-generator">AI & Machine Learning</a></li>
+            <li><a href="#gemini-chatbot">Full Stack Projects</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Madhu Sudhan.</p>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
